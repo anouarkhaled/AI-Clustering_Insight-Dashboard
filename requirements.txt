@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+scikit-learn-extra
+joblib
+streamlit
+plotly
+umap-learn
+hdbscan
+groq
