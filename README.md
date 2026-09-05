@@ -36,20 +36,18 @@ Une application interactive **Streamlit** pour l'exploration de données, le clu
 ## 🏗️ Architecture
 
 ```
-projet_2_data_mining/
+AI-Clustering_Insight-Dashboard/
 ├── app.py                      # App Streamlit (UI uniquement)
 ├── requirements.txt            # Dépendances Python
 ├── README.md                   # Ce fichier
 │
-├── src/                        # Modules de logique métier
-│   ├── __init__.py
-│   ├── preprocessing.py        # Chargement, imputation, encoding, scaling
-│   ├── dimensionality.py       # PCA, t-SNE, UMAP
-│   ├── clustering.py           # Algorithmes de clustering + scoring
-│   ├── profiling.py            # Profils de clusters et résumés textuels
-│   └── groq_integration.py     # Intégration API Groq
-│
-└── env/                        # Environnement Python (venv)
+└── src/                        # Modules de logique métier
+    ├── __init__.py
+    ├── preprocessing.py        # Chargement, imputation, encoding, scaling
+    ├── dimensionality.py       # PCA, t-SNE, UMAP
+    ├── clustering.py           # Algorithmes de clustering + scoring
+    ├── profiling.py            # Profils de clusters et résumés textuels
+    └── groq_integration.py     # Intégration API Groq
 ```
 
 ### Séparation des responsabilités
@@ -74,9 +72,10 @@ projet_2_data_mining/
 
 ### Étapes
 
-1. **Cloner ou télécharger** le projet :
+1. **Cloner le projet** :
    ```bash
-   cd c:\Users\lanouar\Desktop\projet_2_data_mining
+   git clone https://github.com/anouarkhaled/AI-Clustering_Insight-Dashboard.git
+   cd AI-Clustering_Insight-Dashboard
    ```
 
 2. **Créer un environnement virtuel** (recommandé) :
